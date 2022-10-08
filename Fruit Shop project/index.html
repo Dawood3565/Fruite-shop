@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Fruite Shop</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="styless.css">
+</head>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Lobster&display=swap');
+</style>
+<body>
+	 <header>
+      <nav class="nav">
+        <a id="f" href="#" class="logo">logo</a>
+
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+
+        <div class="nav__link hide">
+          <a id="f" href="#">home</a>
+          <a id="f" href="#">about</a>
+          <a id="f" href="#">contact</a>
+          <a id="f" href="#">blog</a>
+          <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#cart">Cart (<span class="total-count"></span>)</button>
+           
+        </div>
+      </nav>
+    </header>
+    <div class=" container" style="margin-top: 6em">
+    	<div class="row">
+    		<div class="col-sm-6">
+    			<h1>Welcome To <br>Our Fruites Shop</h1>
+    			<p class="mt-5">There is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+    			<button class="btn btn-info mt-4" onclick="fun()">Shop Now</button>
+    			<button class="btn btn-dark mt-4">Contact Us</button>
+    		</div>
+    		<div class="col-sm-6">
+    			<img src="images/dish.png" class="w-75">
+
+    		</div>
+    	</div>
+    </div>
+    <div class="container" style="margin-top: 5em;">
+    	<div class="row gap-5">
+    		<div class="col-sm-12 text-center">
+    			<h3><b>Our Services</b></h3>
+    		</div>
+    		<div class="col-sm-12 text-center">
+    			<p style="margin-top: -2em;">There are many variations of passages of fruits is available, but the majurity  have,It is a long</p>
+    		</div>
+    	</div>
+    </div>
+    <div class="container">
+    	<div class="row gap-3" style="">
+    		<div id="col-1" class="col-sm-3 border text-center" style="height: 11em;">
+    			<img class="mt-5" style="width: 3em;" src="images/grapes.png">
+    		</div>
+    		<div id="col-2" class="col-sm-3 border text-center "   style="height: 11em;">
+    			<img class="mt-3" style="width: 3em;" src="images/lemon.png">
+    		</div>
+    		<div id="col-3" class="col-sm-3 border text-center "  style="height: 11em;">
+    			<img class="mt-5" style="width: 3em;" src="images/grapes.png">
+    		</div>
+    		<div class="col-sm-12 text-center mt-5">
+    			<button id="btn" class="btn btn-dark" style="">Read More</button>
+    		</div>
+    	</div>
+    </div>
+    <div class="container mt-5">
+    	<div class="row">
+    		<div class="col-sm-12 text-center">
+    			<h3 style="margin-left: 2em;"><b>Fresh Fruites</b></h3>
+    		</div>
+    		<div class="col-sm-12 text-center">
+    			<p>There are many variations of passages of fruits is available, but the majurity  have,</p>
+    		</div>
+    	</div>
+    </div>
+    <div class="container mt-5">
+    <div class=" clearfix">
+  <img id="img1" style="width: 11em;" src="images/orange.png" class="col-md-6 float-md-end mb-3" alt="...">
+
+  <p class="">
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
+   <p id="n" class="mt-5">
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
+</div>
+<a href="#">Rs 50(kg)</a><br>
+<button  data-name="Orange" data-price="50" class="btn btn-danger add-to-cart">Add To Cart</button>
+</div>
+<div class="container mt-5">
+    <div class=" clearfix">
+  <img id="img2" style="width: 10em;" src="images/nashpati.png" class="col-md-6 float-md-end mb-3" alt="...">
+
+  <p class="">
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
+   <p id="n" class="mt-5">
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
+</div>
+<a href="#">Rs 30(kg)</a><br>
+<button data-name="Guava" data-price="30" class="btn btn-danger add-to-cart" class="btn btn-danger">Add To Cart</button>
+</div>
+<div class="container mt-5">
+    <div class=" clearfix">
+  <img style="width: 6em; height: 10em;" src="images/grapes.png" class="col-md-6 float-md-end mb-3" alt="...">
+
+  <p class="">
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
+   <p id="n" class="mt-5">
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
+</div>
+<a href="#">Rs 100(kg)</a><br>
+<button data-name="Grappes" data-price="100" class="btn btn-danger add-to-cart" class="btn btn-danger">Add To Cart</button>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 text-center mt-5">
+			<h3><b>Testimonial</b></h3>
+			<p>A paragraph of placeholder text. We're using it here to show designer</p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<img style=" height: 11em;
+    margin-top: 0em;" src="images/mypic.png">
+		</div>
+		<div class="col-sm-12 text-center">
+			<h4>Johnhex</h4>
+			<p>A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.</p>
+		</div>
+	</div>
+</div>
+<div class="container mt-5">
+	<div class="row">
+		<div class="col-sm-12 text-center p-4">
+			<h3><b>Contect Us</b></h3>
+		</div>
+		<div class="col-sm-6">
+			<label for="youre name" class="form-label">Name:</label>
+			<input id="name" type="text" class="form-control" placeholder="Your Name" required>
+		</div>
+		<div class="col-sm-6">
+			<label for="Youre Number" class="form-label">Number:</label>
+			<input id="number" type="text" class="form-control" placeholder="Number" required>
+		</div>
+	   <div class="col-sm-12">
+			<label for="Youre Email" class="form-label">Email:</label>
+			<input id="email" type="email" class="form-control" placeholder="Email" required>
+		</div>
+		<div class=" col-sm-12 form-floating mt-3">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Message</label>
+</div>
+		<div class="col-sm-2 mt-3">
+			<button class="btn btn-dark" onclick="MYFunction()">Submit</button>
+		</div>
+
+	</div>
+</div>
+ <!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: Rs<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+     <!-- END EDMO HTML (Happy Coding!)-->
+     <section>
+<div class="container" style="margin-top: 3em;">
+	<div class="row">
+		<div class="col-sm-3">
+			<h5><b>Fruits</b></h5>
+              <a href="#">randomised</a><br>
+              <a href="#">Big Apple</a><br>
+              <a href="#">different type Mango</a><br>
+              <a href="#">Cherry</a><br>
+              <a href="#">donot look even</a><br>
+              <a href="#">are going to use</a><br>
+              <a href="#">Lorem ipsum</a><br>
+              <a href="#">Marshmelo</a>
+		</div>
+		<div class="col-sm-3">
+			<h5><b>Survices</b></h5>
+			<a href="#">randomised</a><br>
+              <a href="#">Big Apple</a><br>
+              <a href="#">different type Mango</a><br>
+              <a href="#">Cherry</a><br>
+              <a href="#">donot look even</a><br>
+              <a href="#">are going to use</a><br>
+              <a href="#">Lorem ipsum</a><br>
+              <a href="#">Marshmelo</a>
+		</div>
+		<div class="col-sm-3">
+			<h5><b>List</b></h5>
+			<a href="#">randomised</a><br>
+              <a href="#">Big Apple</a><br>
+              <a href="#">different type Mango</a><br>
+              <a href="#">Cherry</a><br>
+              <a href="#">donot look even</a><br>
+              <a href="#">are going to use</a><br>
+              <a href="#">Lorem ipsum</a><br>
+              <a href="#">Marshmelo</a>
+		</div>
+		<div class="col-sm-3">
+			<h5><b>Follow Us</b></h5>
+			<a href="#">Facebook</a><br>
+			<a href="#">Instagram</a><br>
+			<a href="#">Linkdin</a>
+		</div>
+	</div>
+</div>
+</section>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12 text-center text-dark border" style="background-color: lightgray;">
+			<p class="mt-3">Copyright © 2022 All Rights (Powered by <a id="j" href="#">Dawood Ijaz)</a></p>
+		</div>
+	</div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
